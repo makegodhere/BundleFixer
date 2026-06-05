@@ -2,6 +2,7 @@ name: Build Plugin
 
 on:
   workflow_call:
+  workflow_run:
   push:
     branches: [ "main" ]
   pull_request:
